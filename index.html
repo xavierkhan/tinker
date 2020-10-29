@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tinker CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="resources/css/all.min.css">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet"  href="resources/css/style.css">
+	<link rel="stylesheet"  href="resources/css/responsive.css">
+</head>
+<body>
+
+<!-- START HEADER SECTION -->
+
+<header id="home">
+    <nav>
+        <div class="row" >
+            <div class="tinker">
+                <a href="#">
+                    <span class="bolt">T</span>
+                    <span class="inker">inker</span>
+               </a>
+            </div>
+           <ul class="main-nav">
+               <li><a href="#home">home</a></li>
+               <li><a href="#about">about us</a></li>
+               <li><a href="#portfolio">portfolio</a></li>
+               <li><a href="#blog">blog</a></li>
+               <li><a href="#contact">contact us</a></li>
+           </ul>
+           <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                    <a href="javascipt:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">HOME</a>
+                            <a onclick="closeNav()" href="#about">about us</a>
+                            <a onclick="closeNav()" 
+                            href="#portfolio">portfolio</a>
+                            <a onclick="closeNav()" href="#blog">blog</a>
+                            <a onclick="closeNav()" href="#contact">contact us</a> 
+                        </div>
+                    </div>
+                 </div>
+        </div> 
+    </nav>
+    <div class="row middle">
+        <span class="m">tinker</span>
+        <span class="n">html5</span>
+        <span>template</span>
+        <p class="little-description">Tinker is a responsive CSS template provided by templatemo site. This design can be applied for any kind of website. Please mention our site to your colleagues. Thank you.</p>
+        
+    </div>
+    <div class="row btn btn-start">
+        <a href="#about">Let's Start</a>
+    </div>
+</header>
+
+<!-- END HEADER SECTION -->
+
+<!-- START ABOUT US SECTION -->
+<section class="about-section js-sticky" id="about">
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <div class="image">
+             <img src="resources/img/service_icon_01.png">
+            </div>            
+             <h4>Smart Notifications</h4>
+             <p>Curabitur non risus fringilla libero accumsan molestie et quis justo. Cras aliquam tempor sem, vestibulum facilisis dui. Mauris malesuada porta.</p>
+             <div class="btn btn-read">
+                 <a href="#portfolio">continue reading</a>
+             </div>
+        
+        </div>
+        <div class="col span_1_of_4 box">
+            <div class="image">
+             <img src="resources/img/service_icon_02.png">
+            </div>
+             <h4>Lovely Web Design</h4>
+             <p>Do NOT re-distribute our template on any template download website. However, you can feel free to use this template for your commercial.</p>
+             <div class="btn btn-read">
+                 <a href="#portfolio">continue reading</a>
+             </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <div class="image">
+             <img src="resources/img/service_icon_03.png">
+            </div>
+             <h4>24/7 Quick Support</h4>
+             <p>Feel free to talk to us on our Facebook page if you have any kind of question or suggestion. Sed tempor mi quis rhoncus convallis..</p>
+             <div class="btn btn-read">
+                 <a href="#portfolio">continue reading</a>
+             </div>
+        
+        </div>
+        <div class="col span_1_of_4 box">
+            <div class="image">
+             <img src="resources/img/service_icon_04.png">
+            </div>
+             <h4>One-Click Setup</h4>
+             <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent viverra, nunc et mollis fermentum.</p>
+             <div class="btn btn-read">
+                 <a href="#portfolio">continue reading</a>
+             </div>    
+        </div>
+    </div>
+</section>
+<!-- END ABOUT US SECTION -->
+
+<!-- START PORTFOLIO SECTION -->
+<section class="portfolio-section" id="portfolio">
+    <div class="row">
+        <div class="col span_1_of_3 gallery">
+            <h4>Our Gallery</h4>
+            <p>In malesuada placerat ligula et bibendum. Aenean     eget urna enim. Sed enim ante, bibendum nec dictum ac, gravida ac lectus.</p>
+            <div class="portfolio-filter">
+                <button type="button" data-filter="all">Show All
+                </button>
+                <button type="button" data-filter=".brand">Branding
+                </button>
+                <button type="button" data-filter=".graphic">Graphic
+                </button>
+                <button type="button" data-filter=".nature">Nature
+                </button>
+                <button type="button" data-filter=".animation">Animation
+                </button>
+            </div>
+        </div>
+        <div class="col span_2_of_3 edited">
+            <div class="row hi container">
+                <div class="col span_1_of_2 mix nature icon">
+                    <img src="resources/img/portfolio_big_item_01.jpg">      
+                </div>
+                <div class="col span_1_of_2 mix animation icon">
+                    <img src="resources/img/portfolio_big_item_02.jpg">      
+                </div>
+                <div class="col span_1_of_2 mix brand icon">
+                    <img src="resources/img/portfolio_big_item_03.jpg">      
+                </div>
+                <div class="col span_1_of_2 mix graphic nature icon">
+                    <img src="resources/img/portfolio_big_item_04.jpg">      
+                </div>
+                <div class="col span_1_of_2 mix brand icon">
+                    <img src="resources/img/portfolio_big_item_05.jpg">      
+                </div>
+                <div class="col span_1_of_2 mix graphic animation icon">
+                    <img src="resources/img/portfolio_big_item_06.jpg">      
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!-- END PORTFOLIO SECTION -->
+
+<!-- START MAHIM SECTION -->
+<section class="mahim">
+    <div class="row description">
+        <p>“ Suspendisse magna mauris, convallis vel finibus eget, lobortis dictum neque. Nam tincidunt metus nec eros dignissim consectetur. ”</p>
+        <div class="down">
+            <h4>Mahim islam</h4>
+            <span>web designer</span>
+        </div>
+    </div>
+</section>
+<!-- END MAHIM SECTION -->
+
+<!-- START BLOG SECTION -->
+<section class="blog-section" id="blog">
+    <div class="row">
+        <div class="col span_1_of_2 post">
+            <div class="blog-post">
+                <h4>Our Blog Posts</h4>
+                <p>Nam vulputate elementum nulla, sit amet congue ipsum malesuada pretium. Vivamus vel gravida quam.</p>
+                <div class="blog-filter">
+                    <button type="button" id="btn1">Nulla eget convallis augue</button>
+                    <button type="button" id="btn2">Quisque ultricies maximus</button>
+                    <button type="button" id="btn3">Sed vel elit et lorem</button>
+                    <button type="button" id="btn4">Vivamus purus neque</button>
+                </div>
+            </div>
+        </div>
+        <div class="col span_1_of_2">
+         <div class="blog-value">
+            <div id="icon-1" class="col span_1_of_2 blog-icon icon-1">
+                <img src="resources/img/blog_item_01.jpg">
+                <div class="text-content">
+                    <h4>Nulla eget convallis augue</h4>
+                    <span>Digital Marketing / Honey / 21 September 2020</span>
+                    <p>Donec interdum scelerisque auctor. Nulla id lorem auctor, bibendum lectus elementum, porta felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+            <div id="icon-2" class="col span_1_of_2 blog-icon icon-2">
+                <img src="resources/img/blog_item_02.jpg">
+                <div class="text-content">
+                    <h4>Quisque ultricies maximus</h4>
+                    <span>Branding / David / 24 August 2020</span>
+                    <p>Etiam fringilla posuere pretium. Maecenas tempor pellentesque elit in dapibus. Curabitur viverra urna sem, ut sollicitudin sem congue vel. Donec fringilla augue in justo molestie fermentum quis ac mi.</p>
+                </div>
+            </div> 
+            <div id="icon-3" class="col span_1_of_2 blog-icon icon-3">
+                <img src="resources/img/blog_item_03.jpg">
+                <div class="text-content">
+                    <h4>Sed vel elit et lorem</h4>
+                    <span>Web Design / William / 18 July 2020</span>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id ipsum porta, dictum sem sed, bibendum quam. Maecenas mattis risus eget orci rhoncus.</p>
+                </div>
+            </div> 
+            <div id="icon-4" class="col span_1_of_2 blog-icon icon-4">
+                <img src="resources/img/blog_item_04.jpg">
+                <div class="text-content">
+                    <h4>Vivamus purus neque</h4>
+                    <span>E-Commerce / George / 14 July 2020
+                    </span>
+                    <p>Aliquam erat volutpat. Nulla at nunc nec ante rutrum congue id in diam. Nulla at lectus non turpis placerat volutpat lacinia ut mi. Quisque ultricies maximus justo a blandit. Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
+                </div>
+             </div> 
+          </div>
+        </div> 
+    </div>
+</section>
+<!-- END BLOG SECTION -->
+
+<!-- START CONTACT US SECTION -->
+<section class="contact-section" id="contact">
+    <div class="row">
+        <h4>Contact Us</h4>
+        <p>Nunc posuere non quam at pharetra. Mauris tincidunt purus vel ultrices malesuada. Integer euismod erat ut nulla ultrices, ut auctor eros feugiat.</p>
+        <div class="btn btn-send">
+            <a href="#contact">Send us a message</a>
+        </div>
+    </div>
+</section>
+<!-- END CONTACT US SECTION -->
+<!-- GOOGLE MAP -->
+<section>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.3157799808378!2d90.423141615229!3d23.70041479660025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9dd0b38cf0f%3A0xe04b25d918154bd1!2zRGhhbGthIG5vZ29yKOCmouCmvuCmsuCmleCmvuCmqOCml-CmsCk!5e0!3m2!1sen!2sbd!4v1603503380557!5m2!1sen!2sbd" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</section>
+
+<!-- START FOOTER SECTION -->
+<footer class="footer-section">
+    <div class="row">
+        <div class="col span_1_of_3">
+          <div class="footer-left"> 
+            <a href="#">
+                 <span class="bolt">T</span>
+                 <span class="inker">inker</span>
+             </a> 
+             <p>Copyright © 2020 Your Company <br>
+                Design: TemplateMo
+             </p>
+          </div> 
+        </div>
+        <div class="col span_1_of_3">
+           <div class="footer-middle"> 
+            <h4>Location</h4>
+             <ul>
+               <li>Gandaria-1204, <br>
+                 Bangladesh: 012345
+               </li>
+               <li>12 Republic Blvd, <br>
+                 Bangladesh: 012345
+               </li>
+             </ul>
+          </div> 
+        </div>
+        <div class="col span_1_of_3">
+           <div class="footer-right"> 
+            <div class="more-info">
+             <h4>More Info</h4>
+             <p>Phone: 01533801300<br>
+                 Email: tk@company.co
+              </p>
+           </div>   
+             <div class="social-connect">
+                <h4>Get Social with us</h4> 
+                <ul>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google"></i></a></li>
+                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                    <li><a href="#"><i class="fab fa-dribbble">
+                    </i></a></li>
+                </ul>
+             </div>
+          </div> 
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER SECTION -->
+
+<!-- JS SCRIPT -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="vendors/js/mixitup.min.js"></script>
+<script src="resources/js/main.js"></script>
+</body>
+</html>
