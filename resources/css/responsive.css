@@ -1,0 +1,207 @@
+@media only screen and (max-width: 1200px){
+	nav .row{
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.main-nav{
+		display: none;
+	}
+	.mobile-menu span{
+		display: block;
+	}
+	.mobile-menu span:hover{
+		cursor: pointer;
+	}
+	.col:nth-child(3){
+		margin-left: 0;
+	}
+	.span_1_of_4{
+		width: 46.2%;
+	}
+	.portfolio-section{
+		padding-bottom: 3rem;
+	}
+	.gallery{
+		width: 100%;
+		text-align: center;
+	}
+	.gallery p{
+		width: 70%;
+		margin: auto;
+	}
+	.gallery h4::after{
+		content: "";
+		height: .1rem;
+		display: block;
+		width: 50%;
+		margin: auto;
+		background: rgba(250,250,250,0.5);
+		margin-top: 1.5rem;
+	}
+	.portfolio-filter button{
+		width: 10rem;
+		margin: auto;
+	}
+	.hi img{
+		width: 34rem;
+    }
+    .edited{
+		padding-top: 2rem;
+		width: 100%;
+		margin: auto;
+	}
+    .post{
+		width: 100%;		
+	}
+	.blog-post{
+		margin: auto;
+	}
+	.blog-value {
+		margin: auto;
+	}
+	.blog-value img{
+		width: 65rem;
+		height: 25rem;
+	}
+	.text-content{
+		width: 65rem;
+	}
+    .footer-section .span_1_of_3{
+    	width: 100%;
+    	text-align: center;
+    	display: block;
+    }
+    .footer-section .footer-right div{
+    	margin-bottom: 1rem;
+    	display: block;
+    	padding-top: 1rem;
+    }
+    .footer-section .footer-right h4{
+    	margin-bottom: 2rem;
+    }
+    .footer-section .social-connect{
+    	float: none;
+    }
+    .footer-left::after,
+    .footer-middle::after,
+    .more-info::after{
+    	content: "";
+		height: .1rem;
+		display: block;
+		width: 75%;
+		background: rgba(250,250,250,0.1);
+		margin: auto;
+		margin-top: 3rem;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+	.about-section .box {
+		display: block;
+		width: 100%;
+		padding-top: 4rem;
+	}
+	.box p{
+		width: 90%;
+		margin: auto;
+	}
+	.box h4::after{
+		content: "";
+		height: .1rem;
+		display: block;
+		width: 95%;
+		background: rgba(250,250,250,0.5);
+		margin: auto;
+		margin-top: 3rem;
+	}
+	.edited{
+		padding-top: 0;
+	}
+	.hi .icon{
+		width: 100%;
+		text-align: center;
+		padding-top: 6rem;
+	}
+	.blog-value img{
+		width: 50rem;
+		height: 20rem;
+	}
+	.text-content{
+		width: 50rem;
+	}
+	.contact-section p{
+		padding: 0 30%;
+	}
+}
+@media only screen and (max-width: 560px){
+	.little-description{
+		width: 35rem;
+	}
+	.gallery{
+		padding-left: 0;
+	}
+	.description{
+		width: 39rem;
+	}
+	.mahim p{
+		font-size: 1.4rem;
+	}
+	.blog-value {
+		margin: 0;
+		padding-left: 1rem;
+	}
+	.blog-value img{
+		width: 37rem;
+		height: 15.6rem;
+	}
+	.text-content{
+		width: 37rem;
+	}
+	.contact-section p{
+		padding: 0 28%;
+	}
+}
+@media only screen and (max-width: 400px){
+	.little-description{
+		width: 30rem;
+		font-size: 1.2rem;
+	}
+	.hi img{
+		width: 28rem;
+    }
+    .contact-section p{
+		padding: 0 25%;
+	}
+	.blog-post{
+		padding-left: 2rem;
+	}
+	.blog-post h4::after{
+		width: 24rem;
+	}
+	.blog-post p{
+		width: 60%;
+	}
+    .blog-filter button{
+		padding: 1.3rem .5rem;
+		width: 60%;
+	}
+	.blog-value img{
+		width: 26.5rem;
+		height: 11.5rem;
+	}
+	.text-content{
+		width: 26.5rem;
+	}
+	.description{
+		width: 26.5rem;
+	}
+	.mahim p{
+		font-size: 1.2rem;
+	}
+}
+@media only screen and (max-width: 320px){
+	.hi img{
+		width: 25rem;
+    }
+}
