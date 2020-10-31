@@ -4,6 +4,12 @@
 	}
 }
 @media only screen and (max-width: 1024px){
+	header{
+		padding-bottom: 30rem;
+	}
+	.middle{
+		margin-top: 15rem;
+	}
 	.main-nav{
 		display: none;
 	}

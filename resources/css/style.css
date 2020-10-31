@@ -80,8 +80,8 @@ header{
 	background-size: cover;
 	background-position: top center;
 	background-attachment: fixed;
-	height: 100vh;
 	padding: 2rem 0;
+	padding-bottom: 50rem;
 }
 .bolt{
 	font-size: 3.2rem;
